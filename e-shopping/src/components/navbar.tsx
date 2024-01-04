@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export function Navbar(){
     return (
-        <div className=" p-4 flex justify-between shadow-md sticky top-0">
+        <div className=" p-4 flex justify-between shadow-md sticky top-0 bg-white">
             <div className=" flex">
                 <div>
                     <Link to="/" className="p-2">Home</Link>
