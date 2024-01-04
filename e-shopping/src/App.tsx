@@ -1,9 +1,13 @@
-import React from 'react';
+import { Routes, Route } from "react-router-dom";
+import { Home, Store, About } from "./components/index";
+
 function App() {
   return (
-    <div className="App text-3xl">
-      Hi
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='/store' element={<Store />}/>
+      <Route path='/about' element={<About />}/>
+    </Routes>
   );
 }
 
